@@ -1,6 +1,6 @@
-import { Footer } from "../components/footer/footer";
-import { Header } from "../components/header/header";
-import { MAIN_API } from "./components/main.api";
+import { Footer } from "../components/footer/footer.jsx";
+import { Header } from "../components/header/header.jsx";
+import { MAIN_API } from "./components/main.api.jsx";
 
 const Home = () => {
     return (

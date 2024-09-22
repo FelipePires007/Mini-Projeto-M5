@@ -1,5 +1,5 @@
 .container_header {
-    border-bottom: solid 1px #8a84ca;
+    border-bottom: solid 1px #000000;
     padding: 0.3rem 0.3rem;
 }
 .container_header, .container_header div {
@@ -34,6 +34,6 @@
 }
 .container_header nav ul li a:hover {
     font-style: italic;
-    border-bottom: solid 1px #8a84ca;
-    color: #bbbbe5;
+    border-bottom: solid 1px #000000;
+    color: #fff;
 }

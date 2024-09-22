@@ -9,7 +9,7 @@ textarea {
 input {
     font-size: 1.3rem;
     width: 100%;
-    border: solid 1px blue;
+    border: solid 1px black;
     padding: 0.2rem 0.3rem;
     border-radius: 3px;
     margin: 0.2rem 0;
@@ -25,7 +25,7 @@ input {
 .button_post_local {
     font-size: 1.6rem;
     margin-right: 0.5rem;
-    background: #ebb325;
+    background: #000000;
     color: #fff;
     font-weight: 700;
     padding: 0.1rem 0.3rem;
@@ -35,11 +35,11 @@ input {
     margin-top: 1rem;
 }
 .button_post_local:hover {
-    border: solid 2px #9dc8a5;
+    border: solid 2px #000000;
 }
 .button_get_local {
     font-size: 1.6rem;
-    background: #214ee1;
+    background: #000000;
     color: #fff;
     font-weight: 700;
     padding: 0.1rem 0.3rem;
@@ -49,5 +49,5 @@ input {
     margin-top: 1rem;
 }
 .button_get_local:hover {
-    border: solid 2px #9dc8a5;
+    border: solid 2px #000000;
 }

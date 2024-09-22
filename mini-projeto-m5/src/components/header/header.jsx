@@ -12,13 +12,13 @@ const Header = () => {
                 <ul>
                     [
                     <li>
-                        <a target='b_blank' href="">Git Hub</a>
+                        <a target='b_blank' href="https://github.com/FelipePires007">Git Hub</a>
                     </li>
                     <li>
-                        <a target='b_blank' href="">Linkedin</a>
+                        <a target='b_blank' href="https://www.linkedin.com/in/felipe-pires-9bbb45302/">Linkedin</a>
                     </li>
                     <li>
-                        <a target='b_blank' href="">Instagram</a>
+                        <a target='b_blank' href="https://www.instagram.com/felipex.one/">Instagram</a>
                     </li>
                     ]
                 </ul>
