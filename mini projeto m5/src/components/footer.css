@@ -1,0 +1,9 @@
+footer {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #fff;
+    border-top: solid 1px #8a84ca;
+    margin-top: 1.2rem;
+    padding: 0.4rem;
+}

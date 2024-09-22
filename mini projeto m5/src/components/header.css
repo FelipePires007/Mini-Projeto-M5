@@ -1,0 +1,39 @@
+.container_header {
+    border-bottom: solid 1px #8a84ca;
+    padding: 0.3rem 0.3rem;
+}
+.container_header, .container_header div {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_header div img {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.4rem;
+}
+.container_header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.container_header nav ul li {
+    list-style: none;
+    margin: 0 0.4rem;
+}
+.container_header nav ul li a {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+.container_header nav ul li a:hover {
+    font-style: italic;
+    border-bottom: solid 1px #8a84ca;
+    color: #bbbbe5;
+}
