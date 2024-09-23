@@ -30,7 +30,7 @@ const CARDS = ({init_data, init_save, get_local_props}) => {
                             onChange={(e) => setTitle(e.target.value)}
                             />
                         <input
-                            placeholder="Studio"
+                            placeholder="authors"
                             type="text"
                             value={authors}
                             onChange={(e) => setStudio(e.target.value)}
