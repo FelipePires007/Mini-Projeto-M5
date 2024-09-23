@@ -16,13 +16,13 @@ const MAIN_API = () => {
                 const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${search}&maxResults=1`);
                 const result = await response.json();
 
-                // Extraindo as informações da API corretamente
+                
                 const bookData = result.items[0].volumeInfo;
 
                 setData({
                     title: bookData.title,
                     authors: bookData.authors ? bookData.authors.join(", ") : "Autor não disponível",
-                    image: bookData.imageLinks ? bookData.imageLinks.thumbnail : "https://via.placeholder.com/150", // Caso não tenha imagem
+                    image: bookData.imageLinks ? bookData.imageLinks.thumbnail : "https://via.placeholder.com/150", 
                     description: bookData.description || "Descrição não disponível"
                 });
 
@@ -112,3 +112,4 @@ const MAIN_API = () => {
 };
 
 export { MAIN_API };
+

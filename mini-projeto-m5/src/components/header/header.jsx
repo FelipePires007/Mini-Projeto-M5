@@ -5,7 +5,7 @@ const Header = () => {
         <header className="container_header">
             <div>
                 <img src={img_api} alt="" />
-                <h2>API server local</h2>
+                <h2>Livro Antirracismo</h2>
             </div>
 
             <nav>
