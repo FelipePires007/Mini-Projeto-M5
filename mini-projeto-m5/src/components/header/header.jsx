@@ -1,5 +1,5 @@
 import './header.css';
-import img_api from '../../assets/codificacao.png';
+import img_api from '../../assets/images.png';
 const Header = () => {
     return (
         <header className="container_header">
