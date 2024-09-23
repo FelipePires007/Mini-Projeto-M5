@@ -6,6 +6,10 @@
 
 ## Instalação:
 
-## Solução de Problemas
+## Solução de Problemas:
+
+## Tecnologia Utilizadas:
+
+## Como Executar:
 
 
